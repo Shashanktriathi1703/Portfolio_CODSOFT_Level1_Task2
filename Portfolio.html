@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For icons in Website -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- For title of the Website -->
+    <title>Shashank Tripathi Portfolio</title>
+
+    <!-- For CSS Connection -->
+    <link rel="stylesheet" href="Portfolio.css">
+
+    <!-- For logo in Website -->
+    <link rel="icon" href="image/Brand.jpg" type="image/x-icon">
+    <!-- <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+
+    <!-- For typed in Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<body>
+    
+<!-- Home portion -->
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h1><span class="span">Shas</span><span class="span1">hank</span></h1>
+                <ul id="sidemenu">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Key-Skills">Key-Skills</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-table" id="Home">
+               <div class="table">
+                    <div class="tr">
+                       <div class="td-left">
+                            <p><span class="writing"></span></p>
+                            <h1>Hi, I'm <span class="h">Shashank</span> Tripathi from India</h1>
+                       </div>
+                        <div class="td-right"><img src="image/title.png" alt="not available" class="image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- About ME portion -->
+    <div class="about" id="About">
+        <div class="container">
+            <div class="row">
+                <div class="column1">
+                    <img src="image/shashank_tripathi.jpg" alt="not available" class="column1">
+                </div>
+                <div class="column2">
+                    <h1 class="heading">About <span class="Me">Me</span></h1>
+                    <p>Hi, I'am Shashank Tripathi, I belong to Kanpur. <br>I had done my schooling from Kanya Kubja Public School in Kanpur.<br> Currently, I'm purseving B.C.A from Allenhouse Business School.<br> Currently student looking to join the workshop to gain real-world experience.<br> Ability to complete tasks on time Optimzed website performance by using web development tools and techniques like caching, minification, and concatenation</p>
+                    <div class="important">
+                        <p class="about_me_nav current" onclick="openthis('skills')">Skills</p>
+                        <p class="about_me_nav" onclick="openthis('internships')">Internships & Trainings</p>
+                        <p class="about_me_nav" onclick="openthis('education')">Education</p>
+                    </div>
+                    <div class="about_me_detail my" id="skills">
+                        <ul>
+                            <li><span>Web-Development</span><br>Develope a Dynamic as well as Static Website</li>
+                            <li><span>Competitive Programming</span><br>Building programs in Efficient Manner with the help of the DSA</li>
+                            <li><span>Data Structure and Algorithm</span><br>For making the effective codes with advance level of Coding technique and maintain the time-complexity as well as space-complexity</li>
+                        </ul>
+                    </div>
+                    <div class="about_me_detail" id="internships">
+                        <ul>
+                            <li><span>CodSoft</span><br>In this Internship program, I create a Dynamic as well as Static Website like Portfolio, Landing Page, Calculator, Tribute Page, Air Travelling Booking Website, Blog Website.</li>
+                            <li><span>Oasis</span><br>In this Internship program, I create a Dynamic as well as Static Website like Portfolio, Landing Page, Calculator, Tribute Page, To-Do-List, Pizza Delivery Wess.</li>
+                            <li><span>Training of C++</span><br>For making the effective codes with OOPs concept and Learned that how to use the STL in Competative Programming</li>
+                            <li><span>Training of Web-Development</span><br>Internshala Trainings, Online<br><strong>Nov 2022-Jan 2023</strong><br>Successfully completed an 8 week online certified training on Web-Development. The training consisted of <strong>HTML, CSS, BOOTSTRAP, DBMS, PHP, JS, REACT, and Final Project modules.</strong>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="about_me_detail" id="education">
+                        <ul>
+                            <li><span>Bachelor of Computer Applications(B.C.A)</span><br>Allenhouse Business School <strong>(2021-2024)</strong><br>CGPA: <span>8.79/10</span></li>
+                            <li><span>Senior Secondary(12th), Science</span><br>Kanya Kubja Public School <strong>(CBSE board)</strong><br>Year of Completion: <span>2021</span><br>Percentage: <span>86.83%</span>
+                            </li>
+                            <li><span>Secondary(10th)</span><br>Kanya Kubja Public School<strong>(CBSE board)</strong><br>Year of Completion: <span>2019</span><br>Percentage: <span>84.80%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Key-Skills portion -->
+    <div class="Key-Skills" id="Key-Skills">
+        <div class="myskills">
+            <h1 class="title"><span class="Me">My Skills</span></h1>
+            <div class="skills">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences</div>
+                    <p>Hi, I'am Shashank Tripathi, I belong to Kanpur. <br>I have many skills and some experience in Techical field .<br> Currently, I am purseving Training & Internship from CodSoft.<br> Currently student looking to join the workshop to gain real-world experience.<br> Ability to complete tasks on time Optimzed website performance by using web development tools and techniques like caching, minification, and concatenation.<br>
+                    On the right hand side bars shows my graph and ability in different fields/languages.</p>
+                    <a href="#" class="readme">Read more</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="information">
+                            <span>C/C++</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line c"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>Python</span>
+                            <span>60%</span>
+                        </div>
+                         <div class="line python"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>HTML/CSS</span>
+                            <span>80%</span>
+                        </div>
+                         <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>JS</span>
+                            <span>55%</span>
+                        </div>
+                         <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>PHP</span>
+                            <span>50%</span>
+                        </div>
+                         <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>DSA</span>
+                            <span>60%</span>
+                        </div>
+                         <div class="line dsa"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>SQL</span>
+                            <span>90%</span>
+                        </div>
+                         <div class="line sql"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>OS</span>
+                            <span>70%</span>
+                        </div>
+                         <div class="line os"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>Software Engineering</span>
+                            <span>90%</span>
+                        </div>
+                         <div class="line se"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>DBMS</span>
+                            <span>70%</span>
+                        </div>
+                         <div class="line dbms"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="information">
+                            <span>OOPs</span>
+                            <span>80%</span>
+                        </div>
+                         <div class="line oops"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Potfolio Portion -->
+    <div class="Portfolio" id="Portfolio">
+        <div class="container">
+            <h1 class="title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/theme.jpg" alt="Not Available">
+                    <div class="layer">
+                        <h3>PGlife Website</h3>
+                        <p>It's a responsive Hotel Booking Website that helps the customer easily find out hotel rooms in different-different cities and the customer easily see all the features of that particular room.</p>
+                        <a href="https://github.com/Shashanktriathi1703/PGlife"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/language.jpg" alt="Not Available">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>The responsive calculator works properly which do work easily and it contains the addition button, subtraction button, multiplication button, and division button, all clear buttons are also available, and deleting a single string is also available which works properly without giving any error.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/image.jpg" alt="Not Available">
+                    <div class="layer">
+                        <h3>Temperature Converter</h3>
+                        <p>It's a responsive temperature converter calculator which converts Celsius into Fahrenheit Celsius also converted into Kelvin and Fahrenheit convert into Celsius as well as kelvin and in the case of kelvin, it also converts into Celsius and as well as Fahrenheit.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+<!-- Contact Me Portion-->
+    <div class="Contact" id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title1">Contact <span class="Me">Me</span></h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> shashanktripathi1703@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> XXXXXXXXXX</p>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/shashank-tripathi-356550226/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Shashanktriathi1703"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://in.pinterest.com/shashanktripathi1703/"><i class="fa-brands fa-pinterest"></i></a>
+                        <a href="https://www.youtube.com/channel/UC02CN-7q-iT13g1d2dygs5w"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="image/Shashank-resume2.pdf" download class="btn btn1">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name = "submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Shashank. Made with <i class="fas fa-heart"></i> by Shashank Tripathi</p>
+        </div>
+    </div> 
+
+<!-- Javascript Connection  -->
+    <script type="text/Javascript" src="Portfolio.js"></script>
+</body>
+</html>
