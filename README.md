@@ -1,5 +1,5 @@
-# Portfolio_CODSOFT_Level1_Task2
-# Portfolio - HTML, CSS, and JavaScript
+
+# Portfolio 
 
 Welcome to my portfolio! Here you will find a collection of my projects and skills in web development using HTML, CSS, and JavaScript.
 
@@ -29,7 +29,7 @@ It's a responsive temperature converter calculator which converts Celsius into F
 - OS
 - Software Engineering
 - DBMS
-- OOPs
+- Oops
 
 ## Demo
 Front section
@@ -46,6 +46,9 @@ Skills section
 
 Contact-Me section
 ![contact](https://github.com/Shashanktriathi1703/Portfolio_CODSOFT_Level1_Task2/assets/105815482/c6227883-50d2-4a7a-a49c-40f1071d679d)
+
+## Live Demo
+link: [http://127.0.0.1:5500/CODSOFTJULY/Portfolio_CODSOFT_Level1_Task2/Portfolio.html#Home]
 
 
 
